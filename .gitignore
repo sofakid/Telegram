@@ -5,6 +5,8 @@ obj/
 *.iml
 local.properties
 *.keystore
+*.jks
 gradle.properties
 
-TMessagesProj/src/main/java/org/telegram/messenger/BuildVars.java
+TMessagesProj/src/main/java/org/skoarcery/firegram/BuildVars.java
+TMessagesProj/.externalNativeBuild/
