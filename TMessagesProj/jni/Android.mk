@@ -113,7 +113,11 @@ LOCAL_SRC_FILES := \
 ./libtgvoip/os/posix/NetworkSocketPosix.cpp \
 ./libtgvoip/PacketReassembler.cpp \
 ./libtgvoip/MessageThread.cpp \
-./libtgvoip/audio/AudioIO.cpp
+./libtgvoip/audio/AudioIO.cpp \
+./libtgvoip/video/VideoRenderer.cpp \
+./libtgvoip/video/VideoSource.cpp \
+./libtgvoip/os/android/VideoRendererAndroid.cpp \
+./libtgvoip/os/android/VideoSourceAndroid.cpp
 
 # WebRTC signal processing
 

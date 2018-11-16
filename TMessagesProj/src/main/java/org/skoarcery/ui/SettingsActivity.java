@@ -150,6 +150,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
     private int supportSectionRow;
     private int supportSectionRow2;
     private int askQuestionRow;
+    private int firegramFaqRow;
     private int telegramFaqRow;
     private int privacyPolicyRow;
     private int sendLogsRow;
@@ -295,6 +296,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         supportSectionRow = rowCount++;
         supportSectionRow2 = rowCount++;
         askQuestionRow = rowCount++;
+        firegramFaqRow = rowCount++;
         telegramFaqRow = rowCount++;
         privacyPolicyRow = rowCount++;
         if (BuildVars.LOGS_ENABLED) {
@@ -550,7 +552,9 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
                     });
                     builder.setNegativeButton(LocaleController.getString("Cancel", R.string.Cancel), null);
                     showDialog(builder.create());
-                } else if (position == telegramFaqRow) {
+                } else if (position == firegramFaqRow) {
+                    Browser.openUrl(getParentActivity(), LocaleController.getString("FiregramFaqUrl", R.string.FiregramFaqUrl));
+                }  else if (position == telegramFaqRow) {
                     Browser.openUrl(getParentActivity(), LocaleController.getString("TelegramFaqUrl", R.string.TelegramFaqUrl));
                 } else if (position == privacyPolicyRow) {
                     Browser.openUrl(getParentActivity(), LocaleController.getString("PrivacyPolicyUrl", R.string.PrivacyPolicyUrl));
@@ -1235,6 +1239,8 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
                         textCell.setText(LocaleController.getString("DataSettings", R.string.DataSettings), true);
                     } else if (position == switchBackendButtonRow) {
                         textCell.setText("Switch Backend", true);
+                    } else if (position == firegramFaqRow) {
+                        textCell.setText(LocaleController.getString("FiregramFAQ", R.string.FiregramFAQ), true);
                     } else if (position == telegramFaqRow) {
                         textCell.setText(LocaleController.getString("TelegramFAQ", R.string.TelegramFAQ), true);
                     } else if (position == contactsReimportRow) {
@@ -1325,7 +1331,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
             return position == textSizeRow || position == enableAnimationsRow || position == notificationRow || position == backgroundRow || position == numberRow ||
                     position == askQuestionRow || position == sendLogsRow || position == sendByEnterRow || position == autoplayGifsRow || position == privacyRow ||
                     position == clearLogsRow || position == languageRow || position == usernameRow || position == bioRow ||
-                    position == switchBackendButtonRow || position == telegramFaqRow || position == contactsSortRow || position == contactsReimportRow || position == saveToGalleryRow ||
+                    position == switchBackendButtonRow || position == firegramFaqRow || position == telegramFaqRow || position == contactsSortRow || position == contactsReimportRow || position == saveToGalleryRow ||
                     position == stickersRow || position == raiseToSpeakRow || position == privacyPolicyRow || position == customTabsRow || position == directShareRow || position == versionRow ||
                     position == emojiRow || position == dataRow || position == themeRow;
         }
@@ -1405,7 +1411,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
                 return 1;
             } else if (position == enableAnimationsRow || position == sendByEnterRow || position == saveToGalleryRow || position == autoplayGifsRow || position == raiseToSpeakRow || position == customTabsRow || position == directShareRow) {
                 return 3;
-            } else if (position == notificationRow || position == themeRow || position == backgroundRow || position == askQuestionRow || position == sendLogsRow || position == privacyRow || position == clearLogsRow || position == switchBackendButtonRow || position == telegramFaqRow || position == contactsReimportRow || position == textSizeRow || position == languageRow || position == contactsSortRow || position == stickersRow || position == privacyPolicyRow || position == emojiRow || position == dataRow) {
+            } else if (position == notificationRow || position == themeRow || position == backgroundRow || position == askQuestionRow || position == sendLogsRow || position == privacyRow || position == clearLogsRow || position == switchBackendButtonRow || position == firegramFaqRow || position == telegramFaqRow || position == contactsReimportRow || position == textSizeRow || position == languageRow || position == contactsSortRow || position == stickersRow || position == privacyPolicyRow || position == emojiRow || position == dataRow) {
                 return 2;
             } else if (position == versionRow) {
                 return 5;

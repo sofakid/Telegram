@@ -380,7 +380,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             if (BuildVars.DEBUG_VERSION) {
                 actionBar.setTitle("Firegram Beta"/*LocaleController.getString("AppNameBeta", R.string.AppNameBeta)*/);
             } else {
-                actionBar.setTitle(LocaleController.getString("AppName", R.string.AppName));
+                actionBar.setTitle("Firegram");
+                //actionBar.setTitle(LocaleController.getString("AppName", R.string.AppName));
             }
             actionBar.setSupportsHolidayImage(true);
         }

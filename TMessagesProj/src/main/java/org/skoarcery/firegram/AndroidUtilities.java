@@ -1637,9 +1637,9 @@ public class AndroidUtilities {
     }
 
     public static void unregisterUpdates() {
-        if (BuildVars.DEBUG_VERSION) {
+        /*if (BuildVars.DEBUG_VERSION) {
             UpdateManager.unregister();
-        }
+        }*/
     }
 
     public static void addToClipboard(CharSequence str) {

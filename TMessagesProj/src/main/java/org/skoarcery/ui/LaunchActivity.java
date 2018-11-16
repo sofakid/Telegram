@@ -430,7 +430,10 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
                     args.putInt("user_id", UserConfig.getInstance(currentAccount).getClientUserId());
                     presentFragment(new ChatActivity(args));
                     drawerLayoutContainer.closeDrawer(false);
-                }
+                } else if (id == 12) {
+                    Browser.openUrl(LaunchActivity.this, LocaleController.getString("FiregramFaqUrl", R.string.FiregramFaqUrl));
+                    drawerLayoutContainer.closeDrawer(false);
+                } 
             }
         });
 
@@ -2761,7 +2764,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
         if (actionBarLayout == null) {
             return;
         }
-        String title = null;
+        String title = "Firegram";
         Runnable action = null;
         currentConnectionState = ConnectionsManager.getInstance(currentAccount).getConnectionState();
         if (currentConnectionState == ConnectionsManager.ConnectionStateWaitingForNetwork) {
