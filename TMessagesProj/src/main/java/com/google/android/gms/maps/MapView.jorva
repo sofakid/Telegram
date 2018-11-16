@@ -1,0 +1,27 @@
+package com.google.android.gms.maps;
+
+public class MapView extends com.amazon.geo.mapsv2.MapView {
+}
+/*
+import android.content.Context;
+import android.view.View;
+import android.view.MotionEvent;
+
+public class MapView extends View
+{
+  public MapView(Context c) {
+    super(c);
+  }
+  public void onDestroy() {}
+  public void onResume() {}
+  public void onCreate(Integer i) {}
+  public void onPause() {}
+  public void onLowMemory() {}
+
+  public boolean onInterceptTouchEvent(MotionEvent ev) { return false; }
+
+  public void getMapAsync(OnMapReadyCallback f) {
+    f.onMapReady(new GoogleMap());
+  }
+
+}*/

@@ -1,0 +1,16 @@
+package com.google.android.gms.maps.model;
+
+public class BitmapDescriptorFactory extends com.amazon.geo.mapsv2.model.BitmapDescriptorFactory {
+}
+
+// import android.graphics.Bitmap;
+
+// public class BitmapDescriptorFactory
+// {
+//   static public int fromResource(int i) {
+//     return 0;
+//   }
+//   static public int fromBitmap(Bitmap bm) {
+//     return 0;
+//   }
+// }

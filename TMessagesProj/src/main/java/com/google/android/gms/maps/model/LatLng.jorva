@@ -1,0 +1,12 @@
+package com.google.android.gms.maps.model;
+
+public class LatLng extends com.amazon.geo.mapsv2.model.LatLng {
+}
+
+// public class LatLng
+// {
+//   public double latitude;
+//   public double longitude;
+
+//   public LatLng(double a, double b) {}
+// }

@@ -1,0 +1,11 @@
+package com.google.android.gms.maps;
+
+public class CameraUpdate extends com.amazon.geo.mapsv2.CameraUpdate {
+}
+
+// import com.google.android.gms.maps.model.LatLng;
+
+// public class CameraUpdate
+// {
+//   public LatLng target;
+// }

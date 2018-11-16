@@ -1,0 +1,9 @@
+package com.google.android.gms.maps;
+
+public class OnMapReadyCallback extends com.amazon.geo.mapsv2.OnMapReadyCallback {
+} 
+
+// public class OnMapReadyCallback
+// {
+//   public void onMapReady(GoogleMap map) {}
+// }

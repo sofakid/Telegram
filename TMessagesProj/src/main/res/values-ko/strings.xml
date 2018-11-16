@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">텔레그램</string>
-    <string name="AppNameBeta">텔레그램</string>
+    <string name="AppName">Firegram</string>
+    <string name="AppNameBeta">Firegram</string>
     <string name="LanguageName">한국어</string>
     <string name="English">한국어</string>
     <string name="LanguageNameInEnglish">한국어</string>
@@ -1070,7 +1070,7 @@
     <string name="Emoji">이모지</string>
     <string name="EmojiBigSize">큰 이모지 하나 그리기</string>
     <string name="EmojiUseDefault">시스템 기본 이모지 사용</string>
-    <string name="TelegramVersion">Android용 텔레그램 %1$s</string>
+    <string name="TelegramVersion">Amazon Fire OS용 Firegram %1$s</string>
     <string name="DebugMenu">디버그 메뉴</string>
     <string name="DebugSendLogs">로그 보내기</string>
     <string name="DebugClearLogs">로그 초기화</string>
@@ -1810,13 +1810,13 @@
     <string name="PermissionDrawAboveOtherApps">화면속화면 모드로 동영상을 재생하려면 텔레그램에게 다른 앱 위에 그릴 수 있는 권한을 부여하셔야 합니다.</string>
     <string name="PermissionOpenSettings">설정</string>
     <!--Intro view-->
-    <string name="Page1Title">텔레그램</string>
+    <string name="Page1Title">Firegram</string>
     <string name="Page2Title">눈부신 속도</string>
     <string name="Page3Title">평생 무료</string>
     <string name="Page4Title">철통 보안</string>
     <string name="Page5Title">강력함</string>
     <string name="Page6Title">클라우드 기반</string>
-    <string name="Page1Message">세상에서 가장 **빠른** 메신저입니다.\n **무료**이며 **안전합니다**.</string>
+    <string name="Page1Message">**Firegram**은 Amazon의 Fire OS에서\n**텔레그램**를 사용하는 앱입니다.</string>
     <string name="Page2Message">**텔레그램**은 그 어떤 메신저보다도\n빠르게 메시지를 전달합니다.</string>
     <string name="Page3Message">**텔레그램**은 영원히 무료입니다. \n광고도, 구독료도 없습니다.</string>
     <string name="Page4Message">**텔레그램**은 회원님의 메시지를\n해커의 공격으로부터 안전하게 지켜냅니다.</string>

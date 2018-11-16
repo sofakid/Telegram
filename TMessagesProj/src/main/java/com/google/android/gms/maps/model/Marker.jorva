@@ -1,0 +1,14 @@
+package com.google.android.gms.maps.model;
+
+public class Marker extends com.amazon.geo.mapsv2.model.Marker {
+}
+
+// import  com.google.android.gms.maps.model.LatLng;
+
+// public class Marker
+// {
+//   public void setPosition(LatLng ll) {}
+//   public LatLng getPosition() {
+//     return new LatLng(0.0, 0.0);
+//   }
+// }

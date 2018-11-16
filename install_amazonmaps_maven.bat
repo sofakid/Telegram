@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=\Amazon\Amazon-Android-SDKs\AmazonMaps\2.4\amazon-maps-api-v2.aar -DpomFile=\Amazon\Amazon-Android-SDKs\AmazonMaps\2.4\amazon-maps-api-v2.pom

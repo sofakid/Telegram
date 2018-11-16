@@ -1,0 +1,7 @@
+package com.google.android.gms.maps;
+
+public class UiSettings {
+  public void setMyLocationButtonEnabled(boolean b) {}
+  public void setZoomControlsEnabled(boolean b) {}
+  public void setCompassEnabled(boolean b) {}
+}

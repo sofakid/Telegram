@@ -1,0 +1,22 @@
+package com.google.android.gms.maps;
+
+public class CameraUpdateFactory extends com.amazon.geo.mapsv2.CameraUpdateFactory {
+}
+
+// import com.google.android.gms.maps.model.LatLng;
+// import com.google.android.gms.maps.model.LatLngBounds;
+
+// public class CameraUpdateFactory
+// {
+//   public static CameraUpdate newLatLngZoom(LatLng ll, int zoom) {
+//     return new CameraUpdate();
+//   }
+
+//   public static CameraUpdate newLatLng(LatLng ll) {
+//     return new CameraUpdate();
+//   }
+
+//   public static CameraUpdate newLatLngBounds(LatLngBounds b, int x) {
+//     return new CameraUpdate();
+//   }
+// }

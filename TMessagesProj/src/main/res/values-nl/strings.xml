@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram-bèta</string>
+    <string name="AppName">Firegram</string>
+    <string name="AppNameBeta">Firegram-bèta</string>
     <string name="LanguageName">Nederlands</string>
     <string name="English">Engels</string>
     <string name="LanguageNameInEnglish">Dutch</string>
@@ -1070,7 +1070,7 @@
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Grote emoji gebruiken</string>
     <string name="EmojiUseDefault">Systeem-emoji gebruiken</string>
-    <string name="TelegramVersion">Telegram voor Android %1$s</string>
+    <string name="TelegramVersion">Firegram voor Amazon Fire OS %1$s</string>
     <string name="DebugMenu">Debug-menu</string>
     <string name="DebugSendLogs">Logbestanden versturen</string>
     <string name="DebugClearLogs">Logboek opschonen</string>
@@ -1810,13 +1810,13 @@
     <string name="PermissionDrawAboveOtherApps">Telegram heeft de toestemming \'over andere apps tekenen\' nodig om video\'s af te spelen in Picture-in-Picture-modus.</string>
     <string name="PermissionOpenSettings">INSTELLINGEN</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Firegram</string>
     <string name="Page2Title">Snel</string>
     <string name="Page3Title">Gratis</string>
     <string name="Page4Title">Veilig</string>
     <string name="Page5Title">Krachtig</string>
     <string name="Page6Title">In de cloud</string>
-    <string name="Page1Message">\'s Werelds **snelste** berichtendienst.\nHet is **gratis** en **veilig**.</string>
+    <string name="Page1Message">**Firegram** is een app om **Telegram**\nte gebruiken op Fire OS van Amazon.</string>
     <string name="Page2Message">**Telegram** bezorgt berichten sneller dan\nelke andere applicatie.</string>
     <string name="Page3Message">**Telegram** is altijd gratis. Geen advertenties.\nGeen abonnementskosten.</string>
     <string name="Page4Message">**Telegram** beveiligt je berichten\ntegen aanvallen van hackers.</string>

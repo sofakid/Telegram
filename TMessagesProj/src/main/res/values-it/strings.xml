@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram</string>
+    <string name="AppName">Firegram</string>
+    <string name="AppNameBeta">Firegram</string>
     <string name="LanguageName">Italiano</string>
     <string name="English">Inglese</string>
     <string name="LanguageNameInEnglish">Italian</string>
@@ -1070,7 +1070,7 @@
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Disegna una singola emoji grande</string>
     <string name="EmojiUseDefault">Usa emoji predefinite</string>
-    <string name="TelegramVersion">Telegram per Android %1$s</string>
+    <string name="TelegramVersion">Firegram per Amazon Fire OS %1$s</string>
     <string name="DebugMenu">Menù debug</string>
     <string name="DebugSendLogs">Invia i log</string>
     <string name="DebugClearLogs">Pulisci i log</string>
@@ -1810,13 +1810,13 @@
     <string name="PermissionDrawAboveOtherApps">Telegram deve accedere allo spostamento su altre app per riprodurre i video in modalità PiP.</string>
     <string name="PermissionOpenSettings">IMPOSTAZIONI</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Firegram</string>
     <string name="Page2Title">Veloce</string>
     <string name="Page3Title">Gratis</string>
     <string name="Page4Title">Sicuro</string>
     <string name="Page5Title">Potente</string>
     <string name="Page6Title">Basato sul cloud</string>
-    <string name="Page1Message">L\'app di messaggi **più veloce** al mondo.\nÈ **gratuita** e **sicura**.</string>
+    <string name="Page1Message">**Firegram** è un\'app per utilizzare\n**Telegram** su Amazon Fire OS.</string>
     <string name="Page2Message">**Telegram** consegna i messaggi più\nvelocemente di qualsiasi altra app.</string>
     <string name="Page3Message">**Telegram** sarà sempre gratuito.\nNessuna pubblicità. Nessun abbonamento.</string>
     <string name="Page4Message">**Telegram** protegge i tuoi messaggi\ndagli attacchi degli hacker.</string>

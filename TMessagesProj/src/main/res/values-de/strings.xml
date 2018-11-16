@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram</string>
+    <string name="AppName">Firegram</string>
+    <string name="AppNameBeta">Firegram</string>
     <string name="LanguageName">Deutsch</string>
     <string name="English">Englisch</string>
     <string name="LanguageNameInEnglish">German</string>
@@ -1070,7 +1070,7 @@
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Draw single big emoji</string>
     <string name="EmojiUseDefault">Benutze System-Emoji</string>
-    <string name="TelegramVersion">Telegram für Android %1$s</string>
+    <string name="TelegramVersion">Firegram für Amazon Fire OS %1$s</string>
     <string name="DebugMenu">Debug-Menü</string>
     <string name="DebugSendLogs">Protokolldateien senden</string>
     <string name="DebugClearLogs">Protokolldateien leeren</string>
@@ -1810,13 +1810,13 @@
     <string name="PermissionDrawAboveOtherApps">Telegram braucht Zugriff auf die Funktion \'Über andere Apps einblenden\'. Nur so können Videos im Bild in Bild Modus wiedergegeben werden.</string>
     <string name="PermissionOpenSettings">EINSTELLUNGEN</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Firegram</string>
     <string name="Page2Title">Schnell</string>
     <string name="Page3Title">Kostenlos</string>
     <string name="Page4Title">Sicher</string>
     <string name="Page5Title">Leistungsstark</string>
     <string name="Page6Title">Cloud-basiert</string>
-    <string name="Page1Message">Die **schnellste** Messaging App der Welt.\n**Kostenlos** und **sicher**.</string>
+    <string name="Page1Message">**Firegram** ist eine App, die **Telegram**\nauf Amazon Fire OS verwendet.</string>
     <string name="Page2Message">**Telegram** übermittelt Nachrichten\nschneller als jede andere Anwendung.</string>
     <string name="Page3Message">**Telegram** bleibt immer gratis.\nKeine Werbung. Keine Abo-Gebühren.</string>
     <string name="Page4Message">**Telegram** schützt deine Nachrichten\nvor Hacker-Angriffen.</string>

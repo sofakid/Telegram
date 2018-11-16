@@ -1,0 +1,52 @@
+package com.google.android.gms.maps;
+
+import com.amazon.geo.mapsv2.AmazonMap;
+
+public class GoogleMap extends AmazonMap {
+}
+
+/*
+import  com.google.android.gms.maps.model.Marker;
+import  com.google.android.gms.maps.model.MarkerOptions;
+import  com.google.android.gms.maps.model.LatLng;
+import  com.google.android.gms.maps.CameraUpdate;
+import  com.google.android.gms.maps.UiSettings;
+
+import android.location.Location;
+
+public class GoogleMap
+{
+  public static int MAP_TYPE_NORMAL = 0;
+  public static int MAP_TYPE_SATELLITE = 0;
+  public static int MAP_TYPE_HYBRID = 0;
+
+  public void animateCamera(CameraUpdate cu) {}
+
+  public int getMaxZoomLevel() {
+    return 0;
+  }
+
+  public Marker addMarker(MarkerOptions o) {
+    return new Marker();
+  }
+
+  public void setMapType(int i) {}
+  public void setPadding(int a, int b, int c, int d) {}
+  public void setMyLocationEnabled(boolean b) {}
+  public void setMyLocationButtonEnabled(boolean b) {}
+  public void setCompassEnabled(boolean b) {}
+  
+  public void moveCamera(CameraUpdate position) {}
+  public CameraUpdate getCameraPosition() {
+    return new CameraUpdate();
+  }
+
+  public UiSettings getUiSettings() { return new UiSettings(); }
+
+  static public class OnMyLocationChangeListener {
+    public void onMyLocationChange(Location location) {}
+  }
+
+  public void setOnMyLocationChangeListener(OnMyLocationChangeListener f) {}
+}
+*/

@@ -1,0 +1,21 @@
+package com.google.android.gms.common.api;
+
+public class GoogleApiClient {
+  public static class Builder {
+    public Builder(Object o) {}
+    public Builder addApi(Object o) { return this; }
+    public GoogleApiClient build() { return new GoogleApiClient(); }
+  }
+
+  public static class Thing {
+    public boolean isSuccess() { return false; }
+  }
+
+  public Thing blockingConnect() {
+    return new Thing();
+  }
+
+  public void connect() {}
+  public void disconnect() {}
+  
+}

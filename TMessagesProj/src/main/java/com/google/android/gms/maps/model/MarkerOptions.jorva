@@ -1,0 +1,13 @@
+package com.google.android.gms.maps.model;
+
+public class MarkerOptions extends com.amazon.geo.mapsv2.model.MarkerOptions {
+}
+
+// import com.google.android.gms.maps.model.LatLng;
+
+// public class MarkerOptions
+// {
+//   public MarkerOptions icon(int i) {return this;}
+//   public MarkerOptions anchor(float A, float b) {return this;}
+//   public MarkerOptions position(LatLng ll) {return this;}
+// }

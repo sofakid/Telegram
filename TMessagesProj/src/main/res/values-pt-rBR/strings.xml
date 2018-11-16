@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram</string>
+    <string name="AppName">Firegram</string>
+    <string name="AppNameBeta">Firegram</string>
     <string name="LanguageName">Português (Brasil)</string>
     <string name="English">Inglês</string>
     <string name="LanguageNameInEnglish">Portuguese (Brazil)</string>
@@ -1070,7 +1070,7 @@
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Desenhe um único emoji grande</string>
     <string name="EmojiUseDefault">Usar emoji padrão do sistema</string>
-    <string name="TelegramVersion">Telegram para Android %1$s</string>
+    <string name="TelegramVersion">Firegram para Amazon Fire OS %1$s</string>
     <string name="DebugMenu">Debug Menu</string>
     <string name="DebugSendLogs">Enviar Logs</string>
     <string name="DebugClearLogs">Limpar Logs</string>
@@ -1810,13 +1810,13 @@
     <string name="PermissionDrawAboveOtherApps">Telegram precisa de acesso para sobrescrever outros apps para reproduzir vídeos no modo PiP.</string>
     <string name="PermissionOpenSettings">CONFIGURAÇÕES</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Firegram</string>
     <string name="Page2Title">Rápido</string>
     <string name="Page3Title">Grátis</string>
     <string name="Page4Title">Seguro</string>
     <string name="Page5Title">Poderoso</string>
     <string name="Page6Title">Baseado em nuvem</string>
-    <string name="Page1Message">O aplicativo de mensagem mais **rápido** do mundo.\nÉ **gratuito** e **seguro**.</string>
+    <string name="Page1Message">**Firegram** é um aplicativo para usar\no **Telegram** no Amazon Fire OS.</string>
     <string name="Page2Message">O **Telegram** envia mensagens mais rápido que qualquer outro aplicativo.</string>
     <string name="Page3Message">**Telegram** é grátis para sempre.\nSem anúncios. Sem taxas.</string>
     <string name="Page4Message">O **Telegram** mantém suas mensagens seguras\nde ataques de hackers.</string>

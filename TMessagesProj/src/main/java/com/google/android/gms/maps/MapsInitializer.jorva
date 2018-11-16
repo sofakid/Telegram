@@ -1,0 +1,12 @@
+package com.google.android.gms.maps;
+
+public class MapsInitializer extends com.amazon.geo.mapsv2.MapsInitializer {
+}
+/*
+import android.content.Context;
+
+public class MapsInitializer
+{
+  static public void initialize(Context c) {}
+}
+*/

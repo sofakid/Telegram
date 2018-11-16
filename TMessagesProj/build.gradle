@@ -16,10 +16,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.3'
     implementation 'com.google.firebase:firebase-messaging:17.3.0'
     implementation 'com.google.firebase:firebase-config:16.0.0'
-    implementation 'com.google.android.gms:play-services-maps:15.0.1'
-    implementation 'com.google.android.gms:play-services-vision:15.0.2'
-    implementation 'com.google.android.gms:play-services-wallet:16.0.0'
-    implementation 'com.google.android.gms:play-services-wearable:15.0.1'
+    //implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    //implementation 'com.google.android.gms:play-services-vision:15.0.2'
+    //implementation 'com.google.android.gms:play-services-wallet:16.0.0'
+    //implementation 'com.google.android.gms:play-services-wearable:15.0.1'
     implementation 'com.android.support:support-core-ui:28.0.0-rc01'
     implementation 'com.android.support:support-compat:28.0.0-rc01'
     implementation 'com.android.support:support-core-utils:28.0.0-rc01'
@@ -29,13 +29,16 @@ dependencies {
     implementation 'net.hockeyapp.android:HockeySDK:5.1.0'
     implementation 'com.googlecode.mp4parser:isoparser:1.0.6'
     implementation 'com.stripe:stripe-android:2.0.2'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.amazon.android:amazon-maps-api:2.0'
 }
 
 android {
     compileSdkVersion 28
+    
     buildToolsVersion '28.0.2'
 
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "org.skoarcery.firegram"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -61,14 +64,14 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file("config/release.keystore")
+            storeFile file("config/debug.keystore.jks")
             storePassword RELEASE_STORE_PASSWORD
             keyAlias RELEASE_KEY_ALIAS
             keyPassword RELEASE_KEY_PASSWORD
         }
 
         release {
-            storeFile file("config/release.keystore")
+            storeFile file("config/release.keystore.jks")
             storePassword RELEASE_STORE_PASSWORD
             keyAlias RELEASE_KEY_ALIAS
             keyPassword RELEASE_KEY_PASSWORD
@@ -80,18 +83,18 @@ android {
             debuggable true
             jniDebuggable true
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".beta"
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //applicationIdSuffix ".beta"
+            minifyEnabled false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
         release {
             debuggable false
             jniDebuggable false
             signingConfig signingConfigs.release
-            minifyEnabled true
+            minifyEnabled false
             shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
         foss {
@@ -101,7 +104,11 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 1358
+    defaultConfig {
+        versionCode = 1358
+        minSdkVersion 16
+        targetSdkVersion 28
+    }
 
     sourceSets.debug {
         manifest.srcFile 'config/debug/AndroidManifest.xml'
@@ -239,8 +246,9 @@ android {
         minSdkVersion 16
         targetSdkVersion 27
         versionName "4.9.1"
-
-		vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
+        multiDexEnabled true
+		
+        vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
         externalNativeBuild {
             ndkBuild {
@@ -251,4 +259,4 @@ android {
     }
 }
 
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'
